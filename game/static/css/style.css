@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Abril Fatface';
+    background-image: url("../image/tree.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    padding: 55px;
+    overflow: hidden;
+    font-size: large;
+}
+.container h1
+{
+    float:inline-start;
+    font-weight: 100;
+    margin-right: 5%;
+    color: rgb(16, 104, 77);
+    font-weight: 200;
+    text-align: center;
+}
+.container a{
+    text-decoration:dotted;
+    color: white;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 82% 18%;
+}
+.equation{
+    font-size: 50px;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+
+}
+.equation h1{
+    display: inline;
+    padding: 40px;
+}
+.answer-options{
+    font-size: 60px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column-reverse;
+}
+.answer-options h1{
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: center;
+}
+#option-1{
+    background-color: brown;
+    transition: 2s;
+}
+#option-1:hover{
+    color: brown;
+    background-color: burlywood;
+}
+#option-2{
+    background-color: #2ab7ca;
+    transition: 2s;
+}
+#option-2:hover{
+    color: brown;
+    background-color: burlywood;
+}
+#option-3{
+    background-color: #fed766;
+    transition: 2s;
+}
+#option-3:hover{
+    color: brown;
+    background-color: burlywood;
+}
+
+
+
+
+
+
+
+
+
+
+

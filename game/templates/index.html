@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link  href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <title>Addition Part</title>
+    
+</head>
+<body>
+    <audio id="myaudio">
+        <source src="{% static '/Audio/POL-silly-encounter-short.wav' %}">
+    </audio>
+    <header>
+        <div class="container">
+            <h1>ADDITION SEGMENT</h1>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="equation">
+            <h1 id="num1" style="color: #a55e0e;">1</h1>
+            <h1 style="color:khaki;">+</h1>
+            <h1 id="num2" style="color:rgb(5, 73, 34);">1</h1>
+            <h1 style="color: #fe4a49;">=</h1>
+            <h1 id="num3" style="color: gray;">?</h1>
+        </div>
+        <div class="answer-options">
+            <h1 id="option-1">1</h1>
+            <h1 id="option-2">2</h1>
+            <h1 id="option-3">3</h1>
+            
+        </div>
+    </div>
+    
+<script src="{% static 'js/add.js' %}"></script>
+</body>
+</html>

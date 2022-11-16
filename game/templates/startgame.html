@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link  href="{% static 'css/frontpage.css' %}" rel="stylesheet">
+	<title>Start play</title>
+</head>
+<body>
+	<section class='container'>
+      <div class="container__section">
+       <div class="img__left">
+          <img src={LFT} alt="" />
+        </div>
+        <div class="main__content">
+          <img src={CNT} alt="" />
+        </div>
+        <div class="block">
+        <div class="button">
+          <a href="{% url 'level' %}">
+          <button>play</button></a>
+          <button>Settings</button>
+          <button>Help</button>
+          <button>Exit</button>
+          </div>
+        </div>
+        
+      </div>   
+    </section>
+
+</body>
+</html>
